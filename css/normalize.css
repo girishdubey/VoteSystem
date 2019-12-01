@@ -435,7 +435,7 @@ h1,h2,h3,h4,h5,h6{
 .card{
   box-shadow: 0 10px 20px 0 rgba(60,136,79,0.7);
   transition: 0.4s;
-  width: 300px;
+  /* width: 300px; */
   background:#3b854e;
   color: #e88010;
   text-align: center;
@@ -501,7 +501,7 @@ h1,h2,h3,h4,h5,h6{
 .card2{
   box-shadow: 0 10px 20px 0 rgba(60,136,79,0.7);
   transition: 0.4s;
-  width: 300px;
+  /* width: 300px; */
   background:#3b854e;
   color: #e88010;
   text-align: center;
@@ -554,4 +554,14 @@ h1,h2,h3,h4,h5,h6{
 .futr p{
 
   padding: 10px 0px 10px 0px;
+}
+
+
+
+@media screen and (min-width: 600px) {
+  #team
+  {
+    width: 80%;
+    margin: auto;
+  }
 }
