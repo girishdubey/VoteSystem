@@ -350,6 +350,7 @@ template {
 
 body{
   font-family: 'Ubuntu', sans-serif;
+  
 }
 p{
   color:#ffffff !important;
@@ -435,7 +436,7 @@ h1,h2,h3,h4,h5,h6{
 .card{
   box-shadow: 0 10px 20px 0 rgba(60,136,79,0.7);
   transition: 0.4s;
-  /* width: 300px; */
+  width: 300px;
   background:#3b854e;
   color: #e88010;
   text-align: center;
@@ -454,7 +455,6 @@ h1,h2,h3,h4,h5,h6{
   font-size: 1.5em;
   background-color: #3b854e;
   color: #ffff;
-  margin-right: 15px;
   border: 1px solid #ffff;
   padding:1rem 4rem 1rem 4rem;
 }
@@ -501,7 +501,7 @@ h1,h2,h3,h4,h5,h6{
 .card2{
   box-shadow: 0 10px 20px 0 rgba(60,136,79,0.7);
   transition: 0.4s;
-  /* width: 300px; */
+  width: 300px;
   background:#3b854e;
   color: #e88010;
   text-align: center;
@@ -525,21 +525,19 @@ h1,h2,h3,h4,h5,h6{
   color: #3b854e !important;
   padding-bottom:1rem;
 }
-.bg-col{
+.our-team{
   box-shadow: 0 10px 20px 0 rgba(60,136,79,0.7);
   transition: 0.4s;
-  width: 300px;
   background:#F0F0F0;
   color: #e88010;
   text-align: center;
   float: left;
   margin: 0 0 0 0px;
   padding-bottom: 10px;
-  font-size: 2em;
 }
-.c-col{
-  margin-right: 15px;
-  margin-left: 15px;
+#team {
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .futr{
@@ -554,14 +552,4 @@ h1,h2,h3,h4,h5,h6{
 .futr p{
 
   padding: 10px 0px 10px 0px;
-}
-
-
-
-@media screen and (min-width: 600px) {
-  #team
-  {
-    width: 80%;
-    margin: auto;
-  }
 }
